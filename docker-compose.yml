@@ -1,4 +1,8 @@
 version: '2'
 services:
-  go-test:
-    build: ./
+  apache:
+    image: php:apache
+    volumes:
+      - ./blah:/var/www/html
+    ports:
+      - "5000:80"
