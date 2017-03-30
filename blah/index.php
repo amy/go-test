@@ -1,10 +1,3 @@
-<html>
-    <head>
-        <title>AHHHH</title>
-    </head>
+<?php
 
-    <body>
-        <h1>DOES THIS WORK?????</h1>
-
-    </body>
-</html>
+echo "Hello World!";
